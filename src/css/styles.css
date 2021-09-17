@@ -65,23 +65,33 @@
 
   border-radius: 5px;
   box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
-  
+
   background: #fff;
-  transition: .1s ease-out;
+  transition: 0.1s ease-out;
 }
 
 .sidenav li a:hover {
-    background: #b07dfb;
+  background: #b07dfb;
 }
 
+/* Content */
 .content {
   grid-area: content;
 }
 
+/* Anuncios */
 .anuncios {
   grid-area: anuncios;
+
+  display: grid;
+  align-content: flex-start;
+  gap: 30px;
+  
+  padding: 30px;
+  background: #fafbfc;
 }
 
+/* Footer */
 .footer {
   grid-area: footer;
 }
