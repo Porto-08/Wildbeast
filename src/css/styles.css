@@ -8,6 +8,17 @@
     "footer footer footer";
 }
 
+@media (max-width: 1200px) {
+    .container {
+        grid-template-areas: 
+        "header header"
+        "sidenav content"
+        "sidenav anuncios"
+        "footer footer"
+        ;
+    } 
+}
+
 /* Header */
 .header {
   grid-area: header;
@@ -222,3 +233,4 @@ p {
   color: #fff;
   text-align: center;
 }
+
